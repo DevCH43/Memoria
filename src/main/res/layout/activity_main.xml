@@ -24,11 +24,40 @@
         android:layout_height="wrap_content"
         android:hint="@string/hint_Nombre"/>
 
+    <EditText
+        android:id="@+id/etMail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_Nombre"/>
+
+    <Button
+        android:id="@+id/btnGuardarPreserencia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnGuardarPreserencia"
+        android:onClick="guardarPreferencia"/>
+
+    <Button
+        android:id="@+id/btnMostraPreserencia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnMostraPreserencia"
+        android:onClick="mostrarPreferencia"/>
+
+
     <Button
         android:id="@+id/btnGuardarArchivo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/guardar_archivo"/>
+        android:text="@string/guardar_archivo"
+        android:onClick="generarArchivo"
+        />
+
+    <TextView
+        android:id="@+id/tvPreferenciaCompartida"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"/>
 
 
 </LinearLayout>

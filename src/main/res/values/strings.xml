@@ -2,5 +2,10 @@
     <string name="app_name">Memoria</string>
     <string name="tvTitulo">Manejo de Memoria</string>
     <string name="hint_Nombre">Nombre</string>
+    <string name="hint_Mail">Nombre</string>
+    <string name="etMail">Mail</string>
     <string name="guardar_archivo">Guardar Archivo</string>
+    <string name="btnGuardarPreserencia">Guardar Preferencia</string>
+    <string name="btnMostraPreserencia">Mostrar Preferencia</string>
+    <string name="tvPreferenciaCompartida"></string>
 </resources>
